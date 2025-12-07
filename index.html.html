@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow to Join Tournament</title>
+    <style>
+        /* Background Image: ಗೇಮಿಂಗ್/ಫೈರ್ ಥೀಮ್‌ಗೆ ಒಂದು ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್ ಇಮೇಜ್ ಬಳಸಲಾಗಿದೆ */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            /* ಗೇಮಿಂಗ್ ಹಿನ್ನೆಲೆ ಚಿತ್ರ: ನೀವು ಇದನ್ನು ನಿಮ್ಮದೇ ಆದ ಉತ್ತಮ ಚಿತ್ರದ URL ನೊಂದಿಗೆ ಬದಲಾಯಿಸಬಹುದು. */
+            background-image: url('https://images.unsplash.com/photo-1542751371-adc32101e57a?fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: white;
+            background-color: #000; /* ಚಿತ್ರ ಲೋಡ್ ಆಗದಿದ್ದರೆ ಕಪ್ಪು ಹಿನ್ನೆಲೆ */
+        }
+
+        /* ಮುಖ್ಯ ಬಾಕ್ಸ್: ಪಠ್ಯವು ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣಿಸಲು */
+        .container {
+            background-color: rgba(0, 0, 0, 0.85); /* ಅರೆ-ಪಾರದರ್ಶಕ ಕಪ್ಪು ಹಿನ್ನೆಲೆ */
+            padding: 40px 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(255, 69, 0, 0.5); /* ಪ್ರಕಾಶಮಾನವಾದ ಆರೆಂಜ್ ನೆರಳು */
+            max-width: 450px;
+            width: 90%;
+            border: 3px solid #FF4500; /* ಆರೆಂಜ್ ಬಾರ್ಡರ್ */
+        }
+
+        h1 {
+            color: #FFD700; /* ಚಿನ್ನದ ಬಣ್ಣ (Gold) - ಟೂರ್ನಮೆಂಟ್ ವಿನ್ನರ್ ಥೀಮ್ */
+            margin-bottom: 25px;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px #000;
+        }
+        
+        /* ಬಟನ್ ಸ್ಟೈಲ್ */
+        .instagram-button {
+            display: inline-block;
+            padding: 15px 35px;
+            /* Instagram ಗ್ರೇಡಿಯಂಟ್ ಬಣ್ಣಕ್ಕೆ ಹೋಲುತ್ತದೆ, ಗೇಮಿಂಗ್ ಶೈಲಿಯಲ್ಲಿ */
+            background: linear-gradient(45deg, #FF416C, #FF4B2B, #FFD700); 
+            color: #1a1a1a; /* ಗಾಢವಾದ ಬಟನ್ ಪಠ್ಯ */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 22px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .instagram-button:hover {
+            transform: scale(1.05); /* ಬಟನ್ ಸ್ವಲ್ಪ ದೊಡ್ಡದಾಗುವುದು */
+            box-shadow: 0 10px 25px rgba(255, 69, 0, 0.6); /* ಆಕರ್ಷಕ ನೆರಳು */
+        }
+
+        p {
+            margin-top: 30px;
+            color: #f0f0f0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Follow My Account & Join Tournament!</h1>
+        
+        <a 
+            href="https://www.instagram.com/sudeep_rathod94/" 
+            target="_blank" 
+            class="instagram-button"
+        >
+            Follow on Instagram
+        </a>
+
+        <p>Click the link above to follow and get all the latest tournament updates.</p>
+    </div>
+</body>
+</html>
